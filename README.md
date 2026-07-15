@@ -1,7 +1,7 @@
 
 # 📄 PDF RAG Chatbot
 
-A Retrieval-Augmented Generation (RAG) chatbot that enables users to ask natural language questions about PDF documents and receive accurate, context-aware answers. The application extracts text from uploaded PDFs, splits the content into manageable chunks, generates vector embeddings, stores them in a FAISS vector database, retrieves the most relevant passages for each query, and uses a Hugging Face language model to generate responses based on the retrieved context.
+A Retrieval-Augmented Generation (RAG) chatbot that enables users to ask natural language questions about PDF documents and receive accurate, context-aware answers. The application extracts text from uploaded PDFs, splits the content into manageable chunks, generates vector embeddings, stores them in a Chroma vector database, retrieves the most relevant passages for each query, and uses a Hugging Face language model to generate responses based on the retrieved context.
 
 ## ✨ Features
 
